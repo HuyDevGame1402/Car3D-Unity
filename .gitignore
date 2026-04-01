@@ -1,0 +1,26 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# MemoryCaptures
+MemoryCaptures/
+
+# Asset meta data
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Unity cache
+*.unitypackage
+
+# Crash logs
+sysinfo.txt
+
+# OS files
+.DS_Store
+Thumbs.db
