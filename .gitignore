@@ -24,3 +24,13 @@ sysinfo.txt
 # OS files
 .DS_Store
 Thumbs.db
+
+
+Assets/Versatile Studio Assets/
+Assets/Survivalist/
+Assets/Tourung Car Pack/
+
+*.fbx
+*.blend
+*.gltf
+*.bin
