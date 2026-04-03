@@ -158,17 +158,21 @@ public class CarHander : MonoBehaviour
 
     private IEnumerator SlowDownTimeCO()
     {
+        // giảm dần tốc độ game từ 1 -> 0.2f trong khoảng 0.5s
         while(Time.timeScale > 0.2f)
         {
             Time.timeScale -= Time.deltaTime * 2;
             yield return null;
         }
+        // giữ nguyên thời gian ở 0.2f trong khoảng 0.5s để tạo hiệu ứng slow motion
         yield return new WaitForSeconds(0.5f);
+        // Tăng lên lại 1
         while (Time.timeScale <= 1.0f)
         {
             Time.timeScale += Time.deltaTime;
             yield return null;
         }
+        // tránh th vượt quá 1 => cần p chỉnh về 1
         Time.timeScale = 1.0f;
     }
 
@@ -184,16 +188,20 @@ public class CarHander : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
+        // nếu không phải player => carAI
         if (!isPlayer)
         {
+            // nếu va chạm với đối tượng không có tag hoặc tag là untagged thì return k nổ
             if(collision.transform.root.CompareTag("Untagged")) return;
-
+            // nếu va vào AI khác thì k nổ 
             if (collision.transform.root.CompareTag("CarAI")) return;
         }
-
+        // lấy velocity hiện tại của xe để truyền vào hàm explode tạo hiệu ứng nổ mạnh hơn khi va chạm mạnh hơn
         Vector3 velocity = rb.velocity;
+        // gọi hàm explode của explode handler để tạo hiệu ứng nổ
         explodeHandler.Explode(velocity * 45);
-        isExploded = true;
+        isExploded = true; // set state exploded là true
+        // bắt đầu coroutine để giảm thời gian
         StartCoroutine(SlowDownTimeCO());
     }
 }

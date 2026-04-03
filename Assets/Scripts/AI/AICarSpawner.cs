@@ -1,9 +1,10 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class AICarSpawner : MonoBehaviour
 {
+    // gần như tương tự pool spawn map road
     [SerializeField] private GameObject[] carAIPrefabs;
     [SerializeField] private GameObject[] carAIPool = new GameObject[20];
     WaitForSeconds wait = new WaitForSeconds(0.5f);
