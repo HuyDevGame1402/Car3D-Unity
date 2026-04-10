@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AI\AICarSpawner.cs" />
+    <Compile Include="Assets\Scripts\Explode\CarPartHandler.cs" />
     <Compile Include="Assets\Scripts\Utils\RandomizeObject.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\Car\EndlessSessionHandle.cs" />

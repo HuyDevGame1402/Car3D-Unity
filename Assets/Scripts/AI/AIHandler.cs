@@ -19,6 +19,9 @@ public class AIHandler : MonoBehaviour
     // index làn xe đang chạy
     int drivingInLane = 0;
 
+    [SerializeField] private AudioSource honkHornAS;
+    float carAheadDistance = 0f;
+
     private void Awake()
     {
         // nếu là Player thì k dùng AI
@@ -42,7 +45,15 @@ public class AIHandler : MonoBehaviour
         // steer input để đánh lái cho xe
         float steerInput = 0.0f;
         // nếu có xe phía trước chuyển từ ga sang phanh để tránh va chạm
-        if (isCarAhead) accelerationInput = -1f;
+        if (isCarAhead) 
+        { 
+            accelerationInput = -1f;
+            if(carAheadDistance < 10 && !honkHornAS.isPlaying)
+            {
+                honkHornAS.pitch = Random.Range(0.5f, 1.1f);
+                honkHornAS.Play();
+            }
+        }
 
         // ví dụ drivingInLane = 0
         // thí desiredPositionX sẽ là Utils.CarLanes[0] = -0.3f 
@@ -90,7 +101,11 @@ public class AIHandler : MonoBehaviour
             transform.forward, raycastHits, Quaternion.identity, 2, otherCarsLayerMask);
         meshCollider.enabled = true;
         // nếu có va chạm thì trả về true, ngược lại trả về false
-        if(numberOfHits > 0) return true;
+        if(numberOfHits > 0)
+        {
+            carAheadDistance = (transform.position - raycastHits[0].point).magnitude;
+            return true;
+        }
 
         return false;
     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering.UI;
 
 public class CarHander : MonoBehaviour
 {
@@ -33,16 +34,34 @@ public class CarHander : MonoBehaviour
     // tốc độ tiến tối đa
     [SerializeField] private float maxForwardVelocity = 30;
 
+    float carMaxSpeedPercentage = 0;
+
     [SerializeField] private bool isPlayer = false;
+
+    [Header("SFX")]
+    [SerializeField] AudioSource carEngineAS;
+    [SerializeField] AnimationCurve carPitchAnimationCuve;
+
+    [SerializeField] AudioSource carSkidAS;
+    [SerializeField] AudioSource carCrashAS;
 
     private void Start()
     {
         isPlayer = CompareTag("Player");
-    }
+
+        if (isPlayer && carEngineAS != null)
+        {
+            carEngineAS.Play();
+        }
+    } 
 
     private void Update()
     {
-        if (isExploded) return;
+        if (isExploded)
+        {
+            FadeOutCarAudio();
+            return;
+        }
         // khi xe trượt sang ngang thì sẽ quay model sang ngang
         // kiểu giống oto hay xe máy quay bánh xe khi đánh lái sang ngang
         // thì xe sẽ quay nhẹ sang ngang
@@ -58,6 +77,7 @@ public class CarHander : MonoBehaviour
             // set color cho _EmissionColor của material của car xe để thay đổi độ sáng màu sắc
             carMeshRender.material.SetColor(_EmissionColor, emissiveColor * emissiveColorMultiplier);
         }
+        UpdateCarAudio();
     }
 
     private void FixedUpdate()
@@ -175,6 +195,31 @@ public class CarHander : MonoBehaviour
         // tránh th vượt quá 1 => cần p chỉnh về 1
         Time.timeScale = 1.0f;
     }
+    private void UpdateCarAudio()
+    {
+        if (!isPlayer) return;
+        carMaxSpeedPercentage = rb.velocity.z / maxForwardVelocity;
+        carEngineAS.pitch = carPitchAnimationCuve.Evaluate(carMaxSpeedPercentage);
+
+        if(input.y < 0 && carMaxSpeedPercentage > 0.2f)
+        {
+            if(!carSkidAS.isPlaying) carSkidAS.Play();
+            carSkidAS.volume = Mathf.Lerp(carSkidAS.volume, 1.0f, Time.deltaTime * 10);
+        }
+        else
+        {
+            carSkidAS.volume = Mathf.Lerp(carSkidAS.volume, 0, Time.deltaTime * 30);
+        
+        }
+
+    }
+
+    private void FadeOutCarAudio()
+    {
+        if (!isPlayer) return;
+        carEngineAS.volume = Mathf.Lerp(carEngineAS.volume, 0, Time.deltaTime * 10);
+        carSkidAS.volume = Mathf.Lerp(carSkidAS.volume, 0, Time.deltaTime * 10);
+    }
 
     // hàm set input hàm bình thg 
     public void SetInput(Vector2 inputVector)
@@ -201,6 +246,13 @@ public class CarHander : MonoBehaviour
         // gọi hàm explode của explode handler để tạo hiệu ứng nổ
         explodeHandler.Explode(velocity * 45);
         isExploded = true; // set state exploded là true
+
+        carCrashAS.volume = carMaxSpeedPercentage;
+        carCrashAS.volume = Mathf.Clamp(carCrashAS.volume, 0.25f, 1.0f);
+        carCrashAS.pitch = carMaxSpeedPercentage;
+        carCrashAS.pitch = Mathf.Clamp(carCrashAS.pitch, 0.3f, 1.0f);
+        carEngineAS.Play();
+
         // bắt đầu coroutine để giảm thời gian
         StartCoroutine(SlowDownTimeCO());
     }

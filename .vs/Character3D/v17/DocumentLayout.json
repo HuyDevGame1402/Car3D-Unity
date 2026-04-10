@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\assets\\scripts\\ai\\aihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|d:\\code game sau khoa hoc 21-10-2024\\character3d\\assets\\scripts\\explode\\carparthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\explode\\carparthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\assets\\scripts\\car\\carhander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\car\\carhander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\assets\\scripts\\car\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\car\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +31,8 @@
       "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\randomizeobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\assets\\scripts\\car\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\car\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\assets\\scripts\\ai\\aicarspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aicarspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\assets\\scripts\\car\\carhander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\car\\carhander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|d:\\code game sau khoa hoc 21-10-2024\\character3d\\assets\\scripts\\ai\\aihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\aihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C89340A3-F011-6A7E-29CF-792CA1D599C0}|Assembly-CSharp.csproj|D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\assets\\scripts\\explode\\explodehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "CarPartHandler.cs",
+              "DocumentMoniker": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Explode\\CarPartHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Explode\\CarPartHandler.cs",
+              "ToolTip": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Explode\\CarPartHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Explode\\CarPartHandler.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T10:55:00.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Utils.cs",
               "DocumentMoniker": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Utils\\Utils.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Utils.cs",
@@ -58,25 +75,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Utils\\Utils.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T15:31:47.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T15:31:47.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "AIHandler.cs",
               "DocumentMoniker": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\AI\\AIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AIHandler.cs",
               "ToolTip": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\AI\\AIHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\AIHandler.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAowGMAAAAqAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAmwDQAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T16:51:47.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ExplodeHandler.cs",
               "DocumentMoniker": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Explode\\ExplodeHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Explode\\ExplodeHandler.cs",
@@ -84,12 +100,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Explode\\ExplodeHandler.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAA4wBwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T10:19:37.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T10:19:37.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EndlessSessionHandle.cs",
               "DocumentMoniker": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Car\\EndlessSessionHandle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Car\\EndlessSessionHandle.cs",
@@ -97,25 +112,23 @@
               "RelativeToolTip": "Assets\\Scripts\\Car\\EndlessSessionHandle.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAmwCEAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T18:36:58.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T18:36:58.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "CarHander.cs",
               "DocumentMoniker": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Car\\CarHander.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Car\\CarHander.cs",
               "ToolTip": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Car\\CarHander.cs",
               "RelativeToolTip": "Assets\\Scripts\\Car\\CarHander.cs",
-              "ViewState": "AQIAAKQAAAAAAAAAAAAmwK4AAAAyAAAA",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAywP0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T16:23:44.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T16:23:44.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AICarSpawner.cs",
               "DocumentMoniker": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\AI\\AICarSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AICarSpawner.cs",
@@ -123,8 +136,7 @@
               "RelativeToolTip": "Assets\\Scripts\\AI\\AICarSpawner.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T13:42:34.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T13:42:34.907Z"
             },
             {
               "$type": "Document",
@@ -134,14 +146,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Car\\InputHandler.cs",
               "ToolTip": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Car\\InputHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\Car\\InputHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T17:15:39.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T17:15:39.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "RandomizeObject.cs",
               "DocumentMoniker": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Utils\\RandomizeObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\RandomizeObject.cs",
@@ -149,12 +160,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Utils\\RandomizeObject.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwA8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T00:16:42.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T00:16:42.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EndlessLevelHandler.cs",
               "DocumentMoniker": "D:\\Code game sau khoa hoc 21-10-2024\\Character3D\\Assets\\Scripts\\Car\\EndlessLevelHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Car\\EndlessLevelHandler.cs",
@@ -162,8 +172,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Car\\EndlessLevelHandler.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAzwGYAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T13:08:20.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T13:08:20.108Z"
             }
           ]
         }
